@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: 'NZ Residency | Investor Pathway to New Zealand Residency',
     template: '%s | NZ Residency'
   },
-  description: 'Your investor pathway to residency in New Zealand. Secure your family\'s future with the Active Investor Plus visa. Professional investment guidance and relocation support.',
+  description: 'Your investor pathway to residency in New Zealand. Secure your family&apos;s future with the Active Investor Plus visa. Professional investment guidance and relocation advice.',
   keywords: [
     'New Zealand residency',
     'investor visa',
