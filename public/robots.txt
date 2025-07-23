@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nzresidency.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /discover-new-zealand
+Allow: /investor-visa
+Allow: /investment-solutions
+Allow: /our-services
+Allow: /contact
+
