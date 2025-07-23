@@ -102,7 +102,7 @@ export default function ContactPage() {
         title="What to Expect"
         content="When you contact us, you'll receive a prompt response from our experienced team. We typically respond to all inquiries within 24 hours during business days.
 
-Your initial consultation will cover your investment goals, timeline for residency, and any specific questions you have about the New Zealand Active Investor Plus visa process. We'll provide you with detailed information about investment options, visa requirements, and our comprehensive support services.
+Your initial consultation will cover your investment goals, timeline for residency, and any specific questions you have about the New Zealand Active Investor Plus visa process. We will provide you with detailed information about investment options, visa requirements, and our comprehensive support services.
 
 All consultations are confidential, and there's no obligation to proceed. We believe in providing transparent, honest advice to help you make informed decisions about your family's future in New Zealand."
         backgroundClass="bg-white"
