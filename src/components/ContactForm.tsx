@@ -34,7 +34,7 @@ const ContactForm: React.FC = () => {
 
     try {
       // Replace with your actual form submission logic
-      // For now, we'll simulate a successful submission
+      // For now, we will simulate a successful submission
       await new Promise(resolve => setTimeout(resolve, 1000));
       
       setSubmitStatus('success');
@@ -116,7 +116,7 @@ const ContactForm: React.FC = () => {
         {submitStatus === 'success' && (
           <div className="p-4 bg-green-50 border border-green-200 rounded-md">
             <p className="text-green-800 text-sm">
-              Thank you for your message! We'll get back to you within 24 hours.
+              Thank you for your message! We will get back to you within 24 hours.
             </p>
           </div>
         )}
