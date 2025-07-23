@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import HeroSection from '@/components/HeroSection';
 import ContentSection from '@/components/ContentSection';
-import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
@@ -87,15 +86,19 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form */}
-            <div>
-              <h3 className="text-2xl font-light text-gray-900 mb-6">
-                Send us a message
-              </h3>
-              <ContactForm />
-            </div>
-          </div>
-        </div>
-      </section>
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+  <p className="text-gray-600 mb-4">
+    Please contact us directly using the information provided. We&apos;ll respond to your inquiry within 24 hours.
+  </p>
+  <div className="space-y-3">
+    <p className="text-sm text-gray-500">
+      <strong>Email:</strong> <a href="mailto:mischa@nzresidency.com" className="text-green-700 hover:text-green-800">info@nzresidency.com</a>
+    </p>
+    <p className="text-sm text-gray-500">
+      <strong>Phone:</strong> <a href="tel:+6421578054" className="text-green-700 hover:text-green-800">+64 21 578 054</a>
+    </p>
+  </div>
+</div>
 
       {/* Additional Information */}
       <ContentSection
