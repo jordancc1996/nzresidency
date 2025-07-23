@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import HeroSection from '@/components/HeroSection';
 import ContentSection from '@/components/ContentSection';
-
 export const metadata: Metadata = {
   title: 'Contact Us',
   description: 'Get in touch with our New Zealand residency experts. Contact us for a consultation about the Active Investor Plus visa and investment options.',
